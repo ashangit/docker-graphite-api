@@ -24,7 +24,7 @@ RUN mkdir -p /data/graphite-api/conf && \
 	mkdir -p /data/graphite-api/index
 
 # Set working directory
-WORKDIR /data/graphite-api/conf
+WORKDIR /data/graphite-api
 
 # Copy default config file
 COPY conf/graphite-api.yml /data/graphite-api/conf/graphite-api.yml
