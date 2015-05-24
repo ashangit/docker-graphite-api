@@ -16,7 +16,7 @@ RUN yum install cairo python-devel python-pip libffi-devel make gcc -y && \
     pip install gunicorn==${GUNICORN_VERSION}
 
 # Remove compiler package
-RUN yum remove python-devel libffi-devel gcc make -y
+RUN yum remove python-devel gcc make -y
 
 # Create required folders
 RUN mkdir -p /data/graphite-api/conf && \
