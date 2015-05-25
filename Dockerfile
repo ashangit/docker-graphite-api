@@ -20,7 +20,6 @@ RUN yum remove python-devel gcc make -y
 
 # Create required folders
 RUN mkdir -p /data/graphite-api/conf && \
-	mkdir -p /data/graphite-api/data && \
 	mkdir -p /data/graphite-api/index
 
 # Set working directory
