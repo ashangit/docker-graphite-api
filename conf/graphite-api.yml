@@ -6,7 +6,7 @@ functions:
   - graphite_api.functions.PieFunctions
 whisper:
   directories:
-    - /data/graphite-api/data
+    - /data/carbon/data/whisper
 carbon:
   hosts:
     - carbon:7002
