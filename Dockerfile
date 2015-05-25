@@ -38,4 +38,4 @@ ENV TIMEOUT 60
 EXPOSE 8888
 
 # Default command
-CMD gunicorn -b [0.0.0.0:8888] -c /data/graphite-api/conf/gunicorn-conf.py graphite_api.app:app
+CMD gunicorn -b 0.0.0.0:8888 -c /data/graphite-api/conf/gunicorn-conf.py graphite_api.app:app
