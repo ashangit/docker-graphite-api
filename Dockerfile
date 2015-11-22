@@ -6,7 +6,7 @@
 FROM ashangit/base:latest
 MAINTAINER Nicolas Fraison <nfraison@yahoo.fr>
 
-ENV GRAPHITE_API_VERSION 1.1.1
+ENV GRAPHITE_API_VERSION 1.1.2
 ENV GUNICORN_VERSION 19.3.0
 ENV GRAPHITE_API_CONFIG /data/graphite-api/conf/graphite-api.yml
 
